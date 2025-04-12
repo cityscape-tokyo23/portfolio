@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>テスト</title>
+  <style>
+    body {
+      background: black;
+      color: #0ff;
+      font-size: 2em;
+      overflow: hidden;
+    }
+    .poem {
+      position: absolute;
+      white-space: nowrap;
+      animation: move-left 20s linear infinite;
+      top: 40%;
+    }
+    @keyframes move-left {
+      from { left: 100%; }
+      to { left: -100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="poem">テストテストテスト</div>
+</body>
+</html>
